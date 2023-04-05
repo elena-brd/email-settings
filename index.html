@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Email Settings</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="settings">
+
+            <div class="updates">
+                <h2>Get email updates when:</h2>
+                <div>
+                    <input type="checkbox" name="owner" class="checkbox-style">
+                    <label for="owner">You're the owner</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="assignee" class="checkbox-style">
+                    <label for="assignee">You're the assignee</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="reporter" class="checkbox-style" checked>
+                    <label for="reporter">You're the reporter</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="mention" class="checkbox-style" checked>
+                    <label for="mention">Someone mentions you</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="assign" class="checkbox-style">
+                    <label for="assign">Someone is assigning you</label>
+                </div>
+            </div>
+
+            <div class="information">
+                <p>You may also receive other email notifications your admin configured.
+                    <a href="#">Learn More</a>
+                </p>
+            </div>
+
+            <div class="format">
+                <h2>Email format</h2>
+                <div>
+                    <input type="radio" name="format" id="html" value="html" checked>
+                    <label for="html">HTML</label>
+                </div>
+                <div>
+                    <input type="radio" name="format" id="text" value="text">
+                    <label for="text">Text</label>
+                </div>
+            </div>
+
+            <div class="save-btn">
+                <button>Save</button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

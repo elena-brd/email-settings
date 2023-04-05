@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #1f212c;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 310px;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings {
+    background: #2c293b;
+    border-radius: 10px;
+    padding: 1.5rem 2.5rem;
+    box-shadow: 1px 155px 5px 44px rgba(17, 14, 20, 0.75);
+}
+
+/* Updates */
+.updates h2,
+.format h2 {
+    font-size: 1.1rem;
+}
+
+.updates label,
+.format label {
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+}
+
+.updates div {
+    padding-bottom: 0.4rem;
+}
+
+.updates input[type="checkbox"],
+.format input[type="radio"] {
+    accent-color: #6c37e0;
+}
+
+.information {
+    background: #1f212c;
+    padding: 0.4rem 1rem;
+    border-radius: 3px;
+    margin: 2rem 0;
+}
+
+.information p {
+    font-size: 0.6rem;
+    color: #f4f4f4;
+    line-height: 1.5;
+}
+
+a {
+    color: #8e63ec;
+}
+
+button {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.8rem 0;
+    border-radius: 3px;
+    background: #8e63ec;
+    border: none;
+    color: #fff;
+}
